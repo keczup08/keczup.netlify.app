@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Keczup</title>
+</head>
+<body>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <h1><a class="nav-link active" href="index.html">Strona główna</a></h1>
+        </li>
+        <li class="nav-item">
+            <h1><a class="nav-link" href="https://github.com/keczup59" target="_blank">Github</a></h1>
+        </li>
+        <li class="nav-item">
+            <h1><a class="nav-link" href="https://discord.gg/amecWU6" target="_blank">Discord</a></h1>
+        </li>
+        <li class="nav-item">
+            <h1><a class="nav-link" href="https://tipo.live/p/keczup7" target="_blank">Donate</a></h1>
+        </li>
+        <li class="nav-item">
+            <h1><a class="nav-link" href="wiecej.html">Więcej</a></h1>
+        </li>
+        </ul>
+        <hr>
+        <div class="box">
+            <h1>Kontakt 📞</h1>
+            <form name="contact" method="POST" action="https://formspree.io/f/xjvjnoln">
+                <p>
+                    <label><input type="email" name="email" placeholder="Twój Mail" class="form-control"/></label>
+                </p>
+                <p>
+                  <label><textarea name="message" placeholder="Wiadomość" class="form-control"></textarea></label>
+                </p>
+                <p>
+                    <button type="submit" class="btn btn-secondary">Wyślij</button>
+                </p>
+              </form>
+        </div>
+        <footer>
+            <div class="copyright">
+                © 2021 Keczup
+            </div>
+        </footer>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+          $("body").hide().fadeIn(2000);
+      </script>
+</body>
+</html>
